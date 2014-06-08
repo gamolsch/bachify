@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+- 1.9.3
+- 2.1.1
+notifications:
+  hipchat:
+    matrix:
+    - 59d7b57452d7ddea8ee38aae9162aa@Bachify
+    rooms:
+      secure: sfc5tQgggwPuBnQ3LneNSfVx+ggBxqNGKjpUtUMQBGXwrP6Ry/m8+2irJD7TtT2zUIPG9vFNTbWm3u5UoxB0qBAiis57opIJkLG/7WkcwOAxrTl2fduiZmL1iA8znD0cnpXLGgeG/wV3DlpZtTRkfDwvn+ekk+IaOBJg6SeECbs=
+bundler_args: --without production debug
